@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Startup Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #010101;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        header h1, header p {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 50px 0;
+            background: url('https://trustconsultingservices.com/wp-content/uploads/2023/07/Asset-6.webp') center/cover no-repeat;
+            color: white;
+            height: 400px; /* Increased height for the hero section */
+        }
+
+        .hero-section img {
+            max-width: 80%; /* Increased image size */
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .hero-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .features-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .feature {
+            flex: 1;
+            margin: 20px;
+            padding: 30px;
+            background-color: #2c3e50;
+            border-radius: 8px;
+        }
+
+        .text-field {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .search-bar {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .startup-ideas {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Startup Name</h1>
+        <p>Revolutionizing [Your Industry]</p>
+    </header>
+
+    <div class="container">
+
+        <div class="hero-section">
+           
+            
+        </div>
+
+        <div class="features-section">
+            <div class="feature">
+                <h3>Feature 1</h3>
+                <p>Describe the first key feature of your startup.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Feature 2</h3>
+                <p>Highlight another important feature of your product or service.</p>
+            </div>
+
+            <div class="feature">
+                <h3>Feature 3</h3>
+                <p>Explain the third key feature that sets your startup apart.</p>
+            </div>
+        </div>
+
+        <div class="text-field">
+            <h3>Contact Us</h3>
+            <p>For more information, reach out to us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+        </div>
+
+        <div class="search-bar">
+            <h3>Search Our Site</h3>
+            <!-- Add your search form here -->
+            <form action="#" method="get">
+                <input type="text" name="search" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="startup-ideas">
+            <h3>Startup Ideas</h3>
+            <p>Explore some startup ideas:</p>
+            <ul>
+                <li>AI-powered Virtual Assistants</li>
+                <li>Smart Home Automation</li>
+                <li>Health and Wellness Apps</li>
+                <li>Eco-Friendly Products</li>
+                <li>Online Learning Platforms</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
